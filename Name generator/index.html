@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name Generator</title>
+  </head>
+  <body>
+    <!--
+      1.Adjectives:
+           Crazy
+           Amazing
+           Fire
+      2.Shop Name:
+           Engine
+           Foods
+           Garments
+      3.Another Word:
+           Bros
+           Limited
+           Hub
+  -->
+    <script>
+      let rand = Math.random();
+      //divding one in four segment = 0,0.33,0.66,1
+      let first, second, third;
+
+      // lets generate first word
+      if (rand < 0.33) {
+        first = "Crazy";
+      } else if (rand < 0.66 && rand >= 0.33) {
+        first = "Amazing";
+      } else {
+        first = "Fire";
+      }
+
+      // lets generate second word
+      rand = Math.random();
+      if (rand < 0.33) {
+        second = "Engine";
+      } else if (rand < 0.66 && rand >= 0.33) {
+        second = "Foods";
+      } else {
+        second = "Germents";
+      }
+
+      // lets generate third word
+      rand = Math.random();
+      if (rand < 0.33) {
+        third = "Bros";
+      } else if (rand < 0.66 && rand >= 0.33) {
+        third = "Limited";
+      } else {
+        third = "Hub";
+      }
+
+      console.log(`${first} ${second} ${third}`);
+    </script>
+  </body>
+</html>
