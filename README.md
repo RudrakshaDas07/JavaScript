@@ -44,25 +44,6 @@ This repository demonstrates JavaScript development across the full stack, from 
 - *Browser DevTools*: Chrome/Firefox developer tools
 
 
-## Usage Examples
-
-### Running Applications
-
-#### Frontend Applications
-bash
-# React application
-npm run dev:react
-# Visit http://localhost:3000
-
-# Vue application
-npm run dev:vue
-# Visit http://localhost:8080
-
-# Vanilla SPA
-npm run dev:vanilla
-# Visit http://localhost:5173
-
-
 ## Project Examples
 
 ### 1. Weather Dashboard
