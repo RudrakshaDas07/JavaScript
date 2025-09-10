@@ -1,5 +1,4 @@
 # JavaScript
-# JavaScript
 
 A comprehensive collection of JavaScript applications, utilities, and libraries showcasing modern ES6+ features, frameworks, and development practices for both frontend and backend development.
 
@@ -87,70 +86,6 @@ cd src/vanilla/algorithm-visualizer
 npm install
 npm run dev
 
-### Package Scripts
-json
-{
-  "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "vite",
-    "dev:backend": "nodemon src/server.js",
-    "build": "vite build",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:e2e": "cypress run",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint src --fix",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,md}",
-    "start": "node dist/server.js",
-    "deploy": "npm run build && npm run deploy:prod"
-  }
-}
-
-## Contributing
-
-### Guidelines
-1. Fork the repository
-2. Create a feature branch (git checkout -b feature/amazing-feature)
-3. Follow the established code style (ESLint + Prettier)
-4. Add tests for new functionality
-5. Update documentation as needed
-6. Ensure all tests pass (npm test)
-7. Commit with conventional commits (git commit -m 'feat: add amazing feature')
-8. Push to the branch (git push origin feature/amazing-feature)
-9. Open a Pull Request
-
-### Code Review Checklist
-- [ ] Code follows ESLint configuration
-- [ ] Functions have proper JSDoc comments
-- [ ] Unit tests are written and passing
-- [ ] No console.log statements in production code
-- [ ] Proper error handling implemented
-- [ ] Performance impact considered
-- [ ] Accessibility guidelines followed (for frontend)
-- [ ] Security best practices applied
-
-## Package.json Scripts Reference
-
-json
-{
-  "scripts": {
-    "dev": "Development server",
-    "build": "Production build",
-    "test": "Run all tests",
-    "test:watch": "Run tests in watch mode",
-    "test:coverage": "Generate test coverage report",
-    "test:e2e": "Run end-to-end tests",
-    "lint": "Check code with ESLint",
-    "lint:fix": "Fix ESLint issues automatically",
-    "format": "Format code with Prettier",
-    "type-check": "Run TypeScript type checking",
-    "start": "Start production server",
-    "deploy": "Deploy to production",
-    "clean": "Clean build directories",
-    "docs": "Generate documentation"
-  }
-}
-
 ### JavaScript Learning
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info/)
@@ -163,10 +98,21 @@ json
 - [Express.js Documentation](https://expressjs.com/)
 - [Jest Testing Framework](https://jestjs.io/docs)
 
-### Tools & Best Practices
-- [ESLint Rules](https://eslint.org/docs/rules/)
-- [Prettier Configuration](https://prettier.io/docs/en/configuration.html)
-- [Webpack Documentation](https://webpack.js.org/concepts/)
-- [Vite Guide](https://vitejs.dev/guide/)
+## Browser Support
 
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Support
+
+If you encounter any issues or have questions:
+- 📧 Email: rudrakshadas8617@gmail.com
+
+## Acknowledgments
+
+- Thanks to all contributors who helped shape this project
+- Inspired by modern web development best practices
+- Built with love and lots of coffee ☕
 
